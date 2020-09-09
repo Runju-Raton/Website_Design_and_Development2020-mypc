@@ -1,0 +1,40 @@
+/* nijer jiga theke kototuku sore jabe tai position relative diye define kora hoy. 
+Could someone please shed some light and educate me on this?
+===============>  position relative <==============
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background-color: khaki;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: hotpink;
+    position: relative;
+    top: 200px;  /* nijer position er top theke 200px sore jabe bechara  */
+    left: 400px; /*nijer position er left theke 400px sore jabe bechara  */  
+}
+
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(196, 8, 8);
+}
+
+.box h2{
+    margin:30px;
+    text-align: justify;
+    position: relative;
+    margin-top: 50px;
+}
+
+.second{
+    background-color: cyan;
+    height: 500px;
+}
+
+/* nijer jiga theke kototuku sore jabe tai position relative diye define kora hoy. */

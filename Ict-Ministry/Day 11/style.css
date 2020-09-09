@@ -1,0 +1,187 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+
+
+nav{
+    background-color: black;
+    padding: 0 5px;
+    overflow: hidden;
+}
+nav .logo{
+    float: left;
+    padding: 5px 25px 5px 5px;
+}
+
+nav.menu{
+    float: right;
+    padding: 10px;
+}
+
+nav .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 48px;
+    padding: 20px;
+    
+}
+
+.description{
+    background: url(img/header-background.png);
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    height: 100vh;
+
+   
+    
+}
+
+.description h1{
+    color: white;
+    font-size: 72px;
+    font-style: italic;
+    text-transform:uppercase;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    
+    
+}
+
+.description h2{
+    color: #a6ffe5;
+    font-size: 48px;
+    font-style: italic;
+    text-transform:uppercase;
+    margin-top: 0px;
+}
+
+/* about section */
+
+.about-b{
+    overflow: hidden;
+    padding: 30px 0;
+}
+.about .about-b .left{
+    height: 400px;
+    width: 50%;
+    float: left;
+    
+   
+}
+
+.about .right{
+   
+    height: 445px;
+    width: 50%;
+    border: gray;
+    box-shadow: 2 px solid gray;
+    float: left;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+.about .right .card h2{
+    margin-top: 0;
+}
+
+.card{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0,0,0,.4);
+    
+}
+
+/* team section */
+
+.team{
+    border-top: 5px solid black;
+    box-shadow: 5px solid gray;
+}
+.team-col-3{
+    width: 25%;
+    float: left;
+}
+.social-t i{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    line-height: 30px;
+    text-align:center;
+    margin: 0 4px;
+    transition: .5s;
+} 
+
+/* testimonial */
+
+.test{
+    text-align: center;
+  
+}
+
+.test .p{
+    background-color: black;
+ 
+}
+
+.test p{
+    color: white;
+    width: 260px;
+    margin:0;
+    text-align:center;
+}
+
+/* footer */
+.footer
+{
+    padding: 20px;
+}
+.social{
+    width: 100%;
+    height: 60px;
+
+}
+
+.social i{
+    float: right;
+    padding: 10px;
+}
+
+.social i{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    line-height: 30px;
+    text-align:center;
+    margin: 0 5px;
+    transition: .5s;
+} 
+.social i:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
