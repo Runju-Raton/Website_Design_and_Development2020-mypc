@@ -6,6 +6,8 @@ body{
     width: 250px ;
     height: 250px;
     background-color: red;
+    float: left;
+    clear: right;
 
 }
 
@@ -13,5 +15,10 @@ body{
     width: 250px ;
     height: 250px;
     background-color: rgb(30, 255, 0);
+    float: right;
 
+}
+
+h2{
+    clear: both;
 }
