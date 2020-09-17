@@ -10,11 +10,16 @@ body{
     color: #ff9e23;
 }
 
-.t-color-1 a{
+.t-color-1 a,
+.footer a{
     color: white;
 }
 
 .t-color-2{
+    color: #00c7c0 !important;
+}
+
+.navbar .nav-item a:hover{
     color: #00c7c0 !important;
 }
 
@@ -144,3 +149,36 @@ p{
 .subscribe input::placeholder{
     color: white;
 }
+.email{
+    text-transform: lowercase;
+}
+.footer .social i{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    margin-left: 10px;
+    
+}
+.footer a{
+    font-size: 14px;
+}
+.footer .social  .facebook{
+    background-color: #347cd2;
+}
+
+.footer .social  .twitter{
+    background-color: #1ec4ff;
+}
+
+.footer .social  .google{
+    background-color: #ff4032;
+}
+
+.footer .social  .linkedin{
+    background-color: #ff3298;
+}
+
