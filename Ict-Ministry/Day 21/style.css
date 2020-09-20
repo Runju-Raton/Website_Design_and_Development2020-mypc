@@ -149,6 +149,8 @@ p{
 .subscribe input::placeholder{
     color: white;
 }
+
+/* footer section here */
 .email{
     text-transform: lowercase;
 }

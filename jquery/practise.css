@@ -1,0 +1,25 @@
+.tt{
+	margin: 0;
+	padding: 0;
+	background: yellow;
+	overflow: hidden;
+}
+.tt li{
+	float: left;
+	list-style-type: none;
+}
+.tt li a{
+	color: orange;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 12px 16px;
+	display: inline-block;
+}
+.dropdown-content{
+	background: #4208e2;
+}
+
+.tt li .dropdown-content a {
+	display: block;
+	color: #333;
+}

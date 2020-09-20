@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.div1{
+    margin: 100px;
+     height: 200px; 
+    width: 300px;
+    background-color: brown;
+    /* overflow: hidden; */
+   /*  overflow: visible; */
+   /* overflow: scroll; */
+   overflow: auto;
+}
+
+.div2{
+   
+    height: 200px; 
+    width: 300px;
+    background-color: rgb(42, 165, 138);
+   /*  overflow: hidden; */
+    overflow: visible;
+   /* overflow: scroll; */
+  /*  overflow: auto; */
+}

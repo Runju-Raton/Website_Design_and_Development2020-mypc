@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: lime;
+    margin: 150px auto;
+    position: relative;
+    
+
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    top: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.box1{
+   
+    left: -50px;
+   
+}
+
+.box2{
+   
+    right: -50px;
+   
+}

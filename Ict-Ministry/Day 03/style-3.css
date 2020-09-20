@@ -11,9 +11,10 @@ body{
 
 /* header section here */
 .header{
-   /*  height: 150px; */
+   
+     /* height: 200px;  */
     background-color: red; 
-    overflow: hidden;
+     overflow: hidden; 
 }
 
 .header .logo{

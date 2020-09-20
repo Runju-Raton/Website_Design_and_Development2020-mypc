@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 50%;
+    height: 300px;
+    background-color: fuchsia;
+    position: relative;
+}
+
+input{
+    margin-top: 80px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
